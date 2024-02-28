@@ -19,7 +19,7 @@ def process_pdf(file_path, query):
 st.set_page_config(page_title='PDF QA Bot', layout='wide')
 
 # App title
-st.title('PDF Query Bot')
+st.title('Germany Arrival Checklist Query Bot')
 
 # File path (assuming the PDF file is in the same directory as your script)
 file_name = "Arrival in Germany Checklist.pdf"
