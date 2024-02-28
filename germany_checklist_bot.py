@@ -5,7 +5,7 @@ from lyzr import QABot
 st.title("Question Answering with OpenAI")
 
 # Initialize QABot
-qa_bot = QABot.pdf_qa(input_files=["/content/Arrival in Germany Checklist.pdf"])
+qa_bot = QABot.pdf_qa(input_files=["/Arrival in Germany Checklist.pdf"])
 
 # User input for question
 question = st.text_input("Ask a question about the document:")
